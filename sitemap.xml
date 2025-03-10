@@ -10,14 +10,19 @@
         <loc>https://maldus512.github.io/articles/</loc>
     </url>
     <url>
-        <loc>https://maldus512.github.io/articles/first/</loc>
-        <lastmod>2019-11-27</lastmod>
-    </url>
-    <url>
         <loc>https://maldus512.github.io/projects/</loc>
     </url>
     <url>
+        <loc>https://maldus512.github.io/projects/c-i2c-drivers/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/projects/c-json-inciter/</loc>
+    </url>
+    <url>
         <loc>https://maldus512.github.io/projects/c-watcher/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/projects/solid-lua/</loc>
     </url>
     <url>
         <loc>https://maldus512.github.io/references/</loc>
@@ -30,17 +35,5 @@
     </url>
     <url>
         <loc>https://maldus512.github.io/topics/</loc>
-    </url>
-    <url>
-        <loc>https://maldus512.github.io/topics/compilers/</loc>
-    </url>
-    <url>
-        <loc>https://maldus512.github.io/topics/logic/</loc>
-    </url>
-    <url>
-        <loc>https://maldus512.github.io/topics/tag1/</loc>
-    </url>
-    <url>
-        <loc>https://maldus512.github.io/topics/tag2/</loc>
     </url>
 </urlset>
