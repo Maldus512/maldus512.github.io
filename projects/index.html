@@ -183,7 +183,7 @@
 
         @media screen and (min-width: 1400px ) {
             #article-index {
-                margin-left: 5%;
+                margin-left: 32px;
                 max-width: 300px;
             }
         }
@@ -210,6 +210,58 @@
             #article-page {
                 margin-top: -40px;
             }
+        }
+
+        /* Article style */
+        blockquote {
+            text-align: right;
+            font-style: italic;
+            border-style: solid;
+            border-width: 1px 4px 1px 1px;
+            margin-right: 16px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            padding: 4px 16px;
+        }
+
+        blockquote p {
+            margin-top:2px;
+            margin-bottom:2px;
+        }
+
+        pre {
+            padding: 16px;
+            margin: 32px 16px 32px 0px;
+            white-space: pre-wrap;       /* Since CSS 2.1 */
+            white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            font-size: 110%;
+        }
+
+        .article img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 32px;
+        }
+
+        .article code {
+            background-color:#2b303b;
+            color:#c0c5ce;
+            padding:2px 4px;
+            font-size: 110%;
+        }
+
+        .article h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+
+        .article h3 {
+            margin-top: 32px;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -328,7 +380,7 @@
                 
 
 <div style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <div style="flex-grow: 1; max-width: 680px; padding: 0px 16px 0px 16px;">
+    <div style="flex-grow: 1; max-width: 720px; padding: 0px 16px 0px 16px;">
         <h1 style="margin-top: 0px;"># Projects</h1>
         
         <div style="position: relative;" class="article-card dark-border">
@@ -354,18 +406,81 @@
         
         <div style="position: relative;" class="article-card dark-border">
             <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
-                href="https://github.com/Maldus512/c-json-inciter" target="_blank">
-                <h2 style="margin-top: 0px; text-align: left;">c-json-inciter</h2>
-                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">A microscopic JSON parser in C</div>
+                href="https://github.com/Maldus512/conserva" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">Conserva</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">Command line pomodoro timer</div>
                 <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
                     
                     <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
                     <div style="display: flex; flex-direction: column;">
                         <div style="display: flex; flex-direction: row; align-items: center;">
                             <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
-                            <div style="text-decoration: underline;">github.com/Maldus512/c-json-inciter</div>
+                            <div style="text-decoration: underline;">github.com/Maldus512/conserva</div>
                         </div>
-                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/c-json-inciter">
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/conserva">
+                        </div>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div style="position: relative;" class="article-card dark-border">
+            <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
+                href="https://github.com/Maldus512/unravelling-foundations" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">unravelling-foundations</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">Rust theorem proving assistant</div>
+                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
+                    
+                    <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
+                            <div style="text-decoration: underline;">github.com/Maldus512/unravelling-foundations</div>
+                        </div>
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/unravelling-foundations">
+                        </div>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div style="position: relative;" class="article-card dark-border">
+            <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
+                href="https://github.com/Maldus512/lemma" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">lemma</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">Lemma programming language compiler</div>
+                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
+                    
+                    <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
+                            <div style="text-decoration: underline;">github.com/Maldus512/lemma</div>
+                        </div>
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/lemma">
+                        </div>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div style="position: relative;" class="article-card dark-border">
+            <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
+                href="https://github.com/Maldus512/c-watcher" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">c-watcher</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">A C observer library</div>
+                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
+                    
+                    <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
+                            <div style="text-decoration: underline;">github.com/Maldus512/c-watcher</div>
+                        </div>
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/c-watcher">
                         </div>
                     </div>
                     
@@ -396,18 +511,39 @@
         
         <div style="position: relative;" class="article-card dark-border">
             <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
-                href="https://github.com/Maldus512/c-watcher" target="_blank">
-                <h2 style="margin-top: 0px; text-align: left;">c-watcher</h2>
-                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">A C observer library</div>
+                href="https://github.com/Maldus512/svadilfari.lua" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">svadilfari.lua</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">Lua-based build system</div>
                 <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
                     
                     <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
                     <div style="display: flex; flex-direction: column;">
                         <div style="display: flex; flex-direction: row; align-items: center;">
                             <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
-                            <div style="text-decoration: underline;">github.com/Maldus512/c-watcher</div>
+                            <div style="text-decoration: underline;">github.com/Maldus512/svadilfari.lua</div>
                         </div>
-                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/c-watcher">
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/svadilfari.lua">
+                        </div>
+                    </div>
+                    
+                </div>
+            </a>
+        </div>
+        
+        <div style="position: relative;" class="article-card dark-border">
+            <a class="article-link dark-hover" style="display: flex; flex-direction: column; min-height: 120px; padding: 16px;"
+                href="https://github.com/Maldus512/c-json-inciter" target="_blank">
+                <h2 style="margin-top: 0px; text-align: left;">c-json-inciter</h2>
+                <div style="margin-top: 0px; margin-bottom: 16px; text-align: left;">A microscopic JSON parser in C</div>
+                <div style="display: flex; flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: start;">
+                    
+                    <img src="/icons/icon-dark-github.svg" style="max-height: 40px; margin-bottom: 16px; margin-right:16px;" />
+                    <div style="display: flex; flex-direction: column;">
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <img src="/icons/icon-dark-github-repo.svg" style="max-height: 16px; margin-right: 8px;" />
+                            <div style="text-decoration: underline;">github.com/Maldus512/c-json-inciter</div>
+                        </div>
+                        <div class="github-repo-details" style="padding: 8px;" custom="Maldus512/c-json-inciter">
                         </div>
                     </div>
                     

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-      <title></title>
+      <title> - elm</title>
       <link>https://maldus512.github.io</link>
       <description></description>
       <generator>Zola</generator>
       <language>en</language>
-      <atom:link href="https://maldus512.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://maldus512.github.io/topics/elm/rss.xml" rel="self" type="application/rss+xml"/>
       <lastBuildDate>Tue, 27 May 2025 00:00:00 +0000</lastBuildDate>
       <item>
           <title>Flutter, Elm and LVGL: a Three Way Comparison</title>

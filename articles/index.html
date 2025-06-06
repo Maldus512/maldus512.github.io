@@ -183,7 +183,7 @@
 
         @media screen and (min-width: 1400px ) {
             #article-index {
-                margin-left: 5%;
+                margin-left: 32px;
                 max-width: 300px;
             }
         }
@@ -210,6 +210,58 @@
             #article-page {
                 margin-top: -40px;
             }
+        }
+
+        /* Article style */
+        blockquote {
+            text-align: right;
+            font-style: italic;
+            border-style: solid;
+            border-width: 1px 4px 1px 1px;
+            margin-right: 16px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            padding: 4px 16px;
+        }
+
+        blockquote p {
+            margin-top:2px;
+            margin-bottom:2px;
+        }
+
+        pre {
+            padding: 16px;
+            margin: 32px 16px 32px 0px;
+            white-space: pre-wrap;       /* Since CSS 2.1 */
+            white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            font-size: 110%;
+        }
+
+        .article img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 32px;
+        }
+
+        .article code {
+            background-color:#2b303b;
+            color:#c0c5ce;
+            padding:2px 4px;
+            font-size: 110%;
+        }
+
+        .article h2 {
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+
+        .article h3 {
+            margin-top: 32px;
+            margin-bottom: 8px;
         }
     </style>
 </head>
@@ -328,7 +380,7 @@
                 
 
 <div style="width: 100%; display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <div style="flex-grow: 1; max-width: 680px; padding: 0px 16px 0px 16px;">
+    <div style="flex-grow: 1; max-width: 720px; padding: 0px 16px 0px 16px;">
         <div
             style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; margin-bottom: 16px;">
             <h1 style="margin: 0px; flex-grow: 100; margin-right: 32px; margin-bottom: 16px;"># Articles</h1>
@@ -338,6 +390,70 @@
                    style="font-size: large;">Topics</a>
             </div>
         </div>
+
+        
+        
+<div style="position: relative;" class="article-card dark-border">
+    <a class="article-link dark-hover" href="https://maldus512.github.io/articles/flutter-elm-lvgl/"
+        style="position: relative; padding: 16px; display: flex; flex-direction: column; min-height: 120px;">
+        <div style="position: relative; display: flex; flex-direction: row; flex-wrap: wrap-reverse;">
+            <div style="position: relative; display: flex; flex-direction: column; flex: 4">
+                <div
+                    style="bottom: 0px; top: 0px; margin-top:8px; margin-bottom: 8px; text-align: start; color: #a0a0a0;">
+                    27&#x2F;05&#x2F;2025
+                </div>
+                <h2 style="margin-top: 0px; text-align: left;">Flutter, Elm and LVGL: a Three Way Comparison</h2>
+                <div style="margin-top: 0px; margin-bottom: 0px; text-align: left; width: 80%;"></div>
+            </div>
+
+            <div
+                style="display: flex; flex-direction: row; column-gap: 8px; row-gap: 4px; align-content: start;justify-content: end; margin-right: 0px; flex-wrap: wrap; flex: 2; margin-bottom: 8px;">
+                
+                <div class="topic" style=" align-self: flex-start; padding:6px;
+                
+                opacity: 1.0;
+                
+                " href="https://maldus512.github.io/topics/flutter/">
+                    flutter
+                </div>
+                
+                <div class="topic" style=" align-self: flex-start; padding:6px;
+                
+                opacity: 1.0;
+                
+                " href="https://maldus512.github.io/topics/elm/">
+                    elm
+                </div>
+                
+                <div class="topic" style=" align-self: flex-start; padding:6px;
+                
+                opacity: 1.0;
+                
+                " href="https://maldus512.github.io/topics/lvgl/">
+                    lvgl
+                </div>
+                
+                <div class="topic" style=" align-self: flex-start; padding:6px;
+                
+                opacity: 1.0;
+                
+                " href="https://maldus512.github.io/topics/rant/">
+                    rant
+                </div>
+                
+                <div class="topic" style=" align-self: flex-start; padding:6px;
+                
+                opacity: 1.0;
+                
+                " href="https://maldus512.github.io/topics/ui/">
+                    ui
+                </div>
+                
+            </div>
+
+        </div>
+    </a>
+</div>
 
         
 

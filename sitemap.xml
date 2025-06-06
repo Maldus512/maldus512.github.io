@@ -10,6 +10,10 @@
         <loc>https://maldus512.github.io/articles/</loc>
     </url>
     <url>
+        <loc>https://maldus512.github.io/articles/flutter-elm-lvgl/</loc>
+        <lastmod>2025-05-27</lastmod>
+    </url>
+    <url>
         <loc>https://maldus512.github.io/projects/</loc>
     </url>
     <url>
@@ -22,7 +26,19 @@
         <loc>https://maldus512.github.io/projects/c-watcher/</loc>
     </url>
     <url>
+        <loc>https://maldus512.github.io/projects/conserva/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/projects/lemma/</loc>
+    </url>
+    <url>
         <loc>https://maldus512.github.io/projects/solid-lua/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/projects/svadilfari-lua/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/projects/unravelling-foundations/</loc>
     </url>
     <url>
         <loc>https://maldus512.github.io/references/</loc>
@@ -35,5 +51,20 @@
     </url>
     <url>
         <loc>https://maldus512.github.io/topics/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/topics/elm/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/topics/flutter/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/topics/lvgl/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/topics/rant/</loc>
+    </url>
+    <url>
+        <loc>https://maldus512.github.io/topics/ui/</loc>
     </url>
 </urlset>
